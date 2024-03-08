@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-{
+html{
 scroll-behavior: smooth;
 }
 .submain{
@@ -12,8 +12,10 @@ scroll-behavior: smooth;
     border: solid black;
 }
 .content{
+    width: 50%;
     flex: 1;
 }
+
 .fcontent{
     height: 100vh;
     background-image: url(./pexels-jeandaniel-francoeur-4562470.jpg);
@@ -23,7 +25,7 @@ scroll-behavior: smooth;
     margin-top: -5px;
 }
 .image{
-    padding: 500px;
+    padding: 100px;
 }
 img{
     width: 500px;
@@ -38,19 +40,19 @@ img{
     height: 100vh;
 }
 .head {
-    width: auto;
-    font-size: 30px;
     font-family: "Antonio", sans-serif;
-    margin-bottom: 550px;
+    margin-bottom: 400px;
 }
 .head h1{
  position: relative;
 left: 250px;
+font-size:40px;
 }
 .nav ul{
     list-style-type: none;
     width: auto;
     margin-left: 100px;
+    margin-top: 100px;
     
 }
 .nav ul li:hover{
@@ -58,9 +60,8 @@ left: 250px;
 }
 .nav ul li{
     position: relative;
-    right: 250px;
+    right: 100px;
     margin-top: 50px;
-    padding: 20px;
     justify-content: center;
     text-align: center;
     background-color: white;
@@ -242,17 +243,21 @@ width: auto;
 width: auto;
 }
 .head h1{
-margin-top: 330px;
+margin-top: 300px;
 font-size: 20px;
-margin-left: -400px;
+margin-left: -50px ;
 }
+
 .submain{
     width: auto;
 }
 .scontent{
-    margin-top: -35px;
-    margin-left: 200px;
+    margin-top: -75px;
+    margin-left: 50px;
     width: auto;
+}
+.scontent h1{
+    margin-left: -250px ;
 }
 .nav ul li{
     width: auto;
