@@ -1,0 +1,48 @@
+h1 {
+    display: right
+    ;
+}
+
+
+table {
+    width: 100%; /* Set the table width to 100% */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+th, td {
+    border: 1px solid black; /* Add borders to table cells */
+    padding: 8px; /* Add padding to table cells */
+}
+
+/* Set the percentage widths for each column */
+th:nth-child(1),
+td:nth-child(1) {
+    width: 30%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 30%;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+    width: 30%;
+}
+.logo {
+    padding-top: 10px;
+    display: flex;
+}
+
+body {
+    background-color: white; /* Set background color of the body */
+}
+    img {
+        border: 2px solid black; /* Specifies a black border with a width of 2px */
+        padding: 10px; /* Optional: Adds some padding inside the border */
+}
+h1 {
+        border: 2px solid black; /* Specifies a black border with a width of 2px */
+        padding: 10px; /* Optional: Adds some padding inside the border */
+    }
+    

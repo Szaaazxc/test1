@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+{
+scroll-behavior: smooth;
+}
+.submain{
+    display: flex;
+    height: 100vh;
+    background-color: pink;
+    border: solid black;
+}
+.content{
+    flex: 1;
+}
+.fcontent{
+    height: 100vh;
+    background-image: url(./pexels-jeandaniel-francoeur-4562470.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    margin-top: -5px;
+}
+.image{
+    padding: 500px;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+
+}
+.scontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.head {
+    width: auto;
+    font-size: 30px;
+    font-family: "Antonio", sans-serif;
+    margin-bottom: 550px;
+}
+.head h1{
+ position: relative;
+left: 250px;
+}
+.nav ul{
+    list-style-type: none;
+    width: auto;
+    margin-left: 100px;
+    
+}
+.nav ul li:hover{
+    background-color: blue;
+}
+.nav ul li{
+    position: relative;
+    right: 250px;
+    margin-top: 50px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    width: 500px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Antonio", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 100px;
+}
+.heads{
+    background-image: url(./pexels-jeandaniel-francoeur-4562470.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 305px;
+    width: 100%;
+}
+.heads h1{
+    font-size: 100px;
+    border: 5px solid black;
+    padding: 80px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.pcontent p{
+    font-size: 50px;
+    margin: auto;
+    height: auto;
+    margin-top: -10px;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 100px;
+    height: 60vh;
+    background-color: pink;
+    border: 5px solid black;
+}
+.skills-content ul{
+    list-style-type: none;
+    background-color: pink;
+    border: 5px solid black;
+    height: 60vh;
+}
+.skills-content ul li{
+    text-decoration: none;
+    margin: 100px;
+    font-size: 50px;
+    font-family: "Antonio", sans-serif;
+}
+.skills-content ul li:nth-child(3){
+    margin-left: 120px;
+}
+.skills-content ul li:nth-child(2){
+    margin-left: 105px;
+}
+.skills-content ul li:nth-child(4){
+    margin-left: 125px;
+}
+.skills-content progress{
+    margin-left: 100px;
+    width: 1000px;
+    border-radius: 1%;
+    border: 5px solid black;
+}
+.skills-content li progress::-webkit-progress-value{
+    background-color: black;
+}
+.accounts{
+    background-color: pink;
+    border: 5px solid black;
+    height: 60vh;
+}
+a{
+    color: black;
+    font-family: "Antonio", sans-serif;
+    font-size: 40px;
+    margin-left: 90px;
+}
+.uiw--facebook{
+    margin-left: 55px;
+    margin-top: 150px;
+    display: inline-block;
+    width: 90px;
+    height: 100px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M18.896 0H1.104C.494 0 0 .494 0 1.104v17.792C0 19.506.494 20 1.104 20h9.578v-7.745H8.076V9.237h2.606V7.01c0-2.584 1.578-3.99 3.883-3.99c1.104 0 2.052.082 2.329.119v2.7h-1.598c-1.254 0-1.496.596-1.496 1.47v1.927h2.989l-.39 3.018h-2.6V20h5.097c.61 0 1.104-.494 1.104-1.104V1.104C20 .494 19.506 0 18.896 0'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.mdi--instagram{
+    display: inline-block;
+    margin-left: -20px;
+    margin-top: 60px;
+    width: 120px;
+    height: 120px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.bi--github {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: -10px;
+    width: 100px;
+    height: 100px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+.fb{
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+.fb a{
+text-align: center;
+justify-content: center; 
+padding-bottom: 90px;
+}
+.aacontent{
+    background-color: pink;
+    height: 50vh;
+    border: 5px solid black;
+}
+@media (max-width: 475px) {
+.image{
+    height: 150vh;
+    padding: 80px;
+    margin-top: 70px;
+}
+img{
+    height: 150px;
+    margin-top: 40px;
+    width: 150px;
+    margin-left: 70px;
+}
+.submain{
+    flex-direction: column;
+}
+.heads{
+    width: auto;
+    height: 100px;
+}
+.heads h1{
+    padding: 10px;
+    font-size: 50px;
+}
+.pcontent{
+width: auto;
+}
+.pcontent p{
+font-size: 20px;
+padding: 20px;
+height: auto;
+}
+.fcontent{
+height: 450px;
+width: auto;
+}
+.submain{
+width: auto;
+}
+.head h1{
+margin-top: 330px;
+font-size: 20px;
+margin-left: -400px;
+}
+.submain{
+    width: auto;
+}
+.scontent{
+    margin-top: -35px;
+    margin-left: 200px;
+    width: auto;
+}
+.nav ul li{
+    width: auto;
+    padding: 5px;
+    height: 20px;
+    margin-top: 15px;
+}
+.nav ul li a{
+    font-size: 15px;
+}
+.content{
+    margin-top: -100px;
+    width: auto;
+}
+
+.scontent{
+    width: auto;
+}
+.skills-content ul{
+    width: auto;
+    height: auto;
+}
+.skills-content progress{
+    width: 200px;
+    height: 20px;
+}
+.skills-content ul li{
+    font-size: 20px;
+}
+.accounts{
+    width: auto;
+    height: auto;
+}
+.accounts a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.uiw--facebook{
+    margin-left: -10px;
+    margin-bottom: -10px;
+    width: 50px;
+    height: 50px;
+}
+.mdi--instagram{
+    margin-left: -80px;
+    margin-bottom: -30px;
+    margin-top: 30px;
+    width: 70px;
+    height: 60px;
+}
+.bi--github{
+    margin-left: -70px;
+    margin-bottom: -5px;
+    width: 50px;
+    height: 50px;
+}
+}
