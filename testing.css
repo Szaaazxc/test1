@@ -213,13 +213,13 @@ img{
     height: 150px;
     margin-top: 40px;
     width: 150px;
-    margin-left: 70px;
+    margin-left: 180px;
 }
 .submain{
     flex-direction: column;
 }
 .heads{
-    width: auto;
+    width: 701px;
     height: 100px;
 }
 .heads h1{
@@ -227,7 +227,7 @@ img{
     font-size: 50px;
 }
 .pcontent{
-width: auto;
+width: 701px;
 }
 .pcontent p{
 font-size: 20px;
@@ -236,7 +236,7 @@ height: auto;
 }
 .fcontent{
 height: 450px;
-width: auto;
+width: 685px;
 }
 .submain{
 width: auto;
@@ -247,12 +247,12 @@ font-size: 20px;
 margin-left: -400px;
 }
 .submain{
-    width: auto;
+    width: 695px;
 }
 .scontent{
     margin-top: -35px;
     margin-left: 200px;
-    width: auto;
+    width: 700px;
 }
 .nav ul li{
     width: auto;
